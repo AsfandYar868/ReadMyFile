@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+}
+.navbar-brand{ 
+    color: white !important;
+    margin-left: 100px;
+    font-size: 27px !important;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-nav{
+    margin-right: 100px;
+    font-size: 15px !important;
+}
+.nav-link{
+    color: white;
+    transition: 0.5s;
+}
+.nav-link:hover{
+   color: #B64629 !important;
+}
+.fa-solid{
+    color: #B64629 !important;
+}
+
+    /* HERO SECTION STARTED*/
+
+    .hero {
+        background-image: url(./images/bg_24.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45vh;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    .hero-contant{
+        height: 45vh;
+        width: 100%;
+        line-height: 1.0;
+    }
+    .hero-txt{
+        position: relative;
+        top: 30vh;
+        text-align: center;
+    }
+    p{
+        color: #ACABAC;
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 50px !important;
+        font-weight: 500 !important;
+        color: white !important;  
+    }
+
+
+    /* ABOUT SECTION STARTED */
+
+    .about{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        top: 50px;
+        right: 25px;
+    }
+    .about-frame{
+        height: 75vh;
+        width: 55vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10vh;
+    }
+    .about-pic-div{
+        height: 75vh;
+        width: 55vh;
+        overflow: hidden;
+    }
+
+    .about-img {
+        height: 100%;
+        width: 100%;
+        transition: 0.5s;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .about-img:hover {
+        transform: scale(1.05);
+    }
+    .about-content {
+        height: 60vh;
+        width: 45vh;
+        margin-top: 20vh;
+
+    }
+    .about-subtitle{
+        color: #B64629;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .fa-star{
+        font-size: 12px;
+    }
+    .about-heading{
+        color: #000;
+        font-size: 30px;
+        font-weight: 500;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .about-para{
+        font-size: 17px;
+        line-height: 25px;
+        color: #3C3E41;
+        margin-top: 2%;
+    }
+    #p115{
+        color: #B64629;
+        font-size: 35px;
+    }
+    #para3{
+        font-size: 28px;
+    }
+    
